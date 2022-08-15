@@ -1,0 +1,13 @@
+-- Recap --
+-- Cucumber - it is a tool that supports BDD
+-- Gherkin language we use to write BDD
+-- Feature(User story), Scenario(Test case), Given(Pre-condition), When(Perform actions), Then(Expected result), And(Supporting tag)
+
+What is framework -
+ -- it is an organized structure which allows us to write clean and maintainable code
+
+ Feature file -
+
+ Cross browser testing - executing our test for all browsers.
+
+POM-
