@@ -1,0 +1,26 @@
+Class 6
+ --  recap --
+    Data table -
+    we use data table to achieve data driven testing
+
+    2 types of data table -
+    with headers - list of maps
+    without headers - list
+
+    excel file - spreadsheets
+
+Homework - modify the details of the employee after adding it in the HRMS
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                //we use inlcludes tag to run our runner classes
+                //** means src folder/* means runner package and then file name
+                    <includes>
+                        <include>**/*RunnerClass.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
